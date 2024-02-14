@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: python-flask-docker
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rh-ee-swickers-tenant/python-flask-docker/python-flask-docker@sha256:de670acaa683939f52d3cbc1a4eede29203290c7a5ea1f0f896ece0e4912df35
         imagePullPolicy: Always
         name: container-image
         ports:

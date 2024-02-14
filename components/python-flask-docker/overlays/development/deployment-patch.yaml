@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-ee-swickers-tenant/python-flask-docker/python-flask-docker@sha256:f65babe09d15b76c8b9ea9f29a4de23df9a27c3c7485e2d0ca76bbfeba70684e
+      - image: quay.io/redhat-user-workloads/rh-ee-swickers-tenant/python-flask-docker/python-flask-docker@sha256:5da99bc00c3fa84cf499a2fb0bc3befaaf2b7bf433fac590b1d9a4fc2b80b2ae
         name: container-image
         resources: {}
 status: {}
